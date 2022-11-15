@@ -7,10 +7,10 @@ window.addEventListener('load', () => {
 
     console.log('flowRunId', flowRunId);
 
-    if (redirectTo) {
         setTimeout(()=>{
         window.location = "ru.avito://1/main&flowRunId=123"
         }, 3000)
+    if (redirectTo) {
         
         // location.assign(redirectTo);
         // const main = document.querySelector('main');
