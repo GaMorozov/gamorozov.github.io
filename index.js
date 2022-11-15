@@ -8,7 +8,7 @@ window.addEventListener('load', () => {
     console.log('flowRunId', flowRunId);
 
         setTimeout(()=>{
-        window.location = "ru.avito://1/main&flowRunId=123"
+        window.location = "ru.avito://1/main?flowRunId=123"
         }, 3000)
     if (redirectTo) {
         
