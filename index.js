@@ -9,7 +9,7 @@ window.addEventListener('load', () => {
 
     if (redirectTo) {
         setTimeout(()=>{
-        window.location = redirectTo;
+        window.location = "ru.avito://1/main&flowRunId=123"
         }, 3000)
         
         // location.assign(redirectTo);
