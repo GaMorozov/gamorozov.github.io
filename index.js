@@ -8,7 +8,10 @@ window.addEventListener('load', () => {
     console.log('flowRunId', flowRunId);
 
     if (redirectTo) {
+        setTimeout(()=>{
         window.location = redirectTo;
+        }, 3000)
+        
         // location.assign(redirectTo);
         // const main = document.querySelector('main');
         // const linkEl = document.createElement('a');
